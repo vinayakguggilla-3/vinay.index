@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <style>
+      button {
+        font-family:
+          "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding: 10px 15px;
+        font-weight: 100;
+        margin-top: 10px;
+
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      form {
+        background-color: rgb(97, 141, 110);
+        width: 300px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px grey;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <form action="">
+        <h2><legend>Login</legend></h2>
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="EX:vinayak"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="EX:vinayakguggilla@gmail.com"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label><br /></td>
+          <td>
+            <input type="password" name="password" id="password" required />
+          </td>
+        </tr>
+        <tr>
+          <td><button type="submit">Submit</button></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
